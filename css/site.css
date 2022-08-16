@@ -17,7 +17,11 @@ main>.container {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
+
+}
+
+.minHeight{
+    min-height: 80vh;
 }
 
 
