@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/css/site.css">
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 homeBG">
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
@@ -65,8 +65,37 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           
+       <div class="container h-100 minHeight">
+            <ul class="nav nav-pills mb-1">
+                <li class="nav-item">
+                    <a href="/grid3.html" class="nav-link active" aria-current="page">Grid 3</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/grid3b.html" class="nav-link">Grid 3b</a>
+                </li>
+            </ul>
+           <div class="row h-75">
+                <!--Left Column-->
+                <div class="col-7">
+                    <div class="bg-secondary text-light p-2 overflow-auto h-100">
+                        Lorem ipsum dolor sit amet. Eos iusto vero Aut internos et similique earum sed molestiae quia! Qui galisum vitae ut quaerat optio et omnis iure sed reprehenderit mollitia quo temporibus soluta non iure architecto? Ut animi sint qui omnis optio hic blanditiis sunt hic illo dicta qui assumenda perferendis.
+                    </div>
+                </div>
+                <!--Right Column-->
+                <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+                    <!--Right Top Column-->
+                    <div class="bg-dark text-light h-50 overflow-auto">
+                        Lorem ipsum dolor sit amet. Eos iusto vero Aut internos et similique earum sed molestiae quia! Qui galisum vitae ut quaerat optio et omnis iure sed reprehenderit mollitia quo temporibus soluta non iure architecto? Ut animi sint qui omnis optio hic blanditiis sunt hic illo dicta qui assumenda perferendis. 
+                    </div>
+                    <!--Right Bottom Column-->
+                    <div class="bg-dark text-light h-50 mt-2 overflow-auto" >
+                        Lorem ipsum dolor sit amet. Eos iusto vero Aut internos et similique earum sed molestiae quia! Qui galisum vitae ut quaerat optio et omnis iure sed reprehenderit mollitia quo temporibus soluta non iure architecto? Ut animi sint qui omnis optio hic blanditiis sunt hic illo dicta qui assumenda perferendis.
+                    </div>
+                    <div class="bg-dark text-light border border-top p-2">
+                            <button class="btn btn-light" type="button">Read More</button>
+                    </div>
+                </div>
+           </div>
        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
